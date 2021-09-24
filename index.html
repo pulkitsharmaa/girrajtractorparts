@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Girraj Tractor Parts</title>
+</head>
+<body>
+
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Girraj Tractor Parts</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="tractor.mp4" muted loop autoplay></video>
+        
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Wide range of Spare parts</h2>
+            <h3>and Accessories for tractors</h3>
+            <p>At Exclusive Rates at Girraj Tractor Parts Offline Store.</p>
+            <p>Address : Shop no 1 Ashiya Residency, OPP Sethi Petrol Pump, Morar, Gwalior - 474006</p>
+            <p>Contact No : 9926916484</p>
+           <a href="https://www.tradeindia.com/Seller/Agriculture/Tractor-Parts/">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://www.facebook.com/profile.php?id=100036923870746"><img src="facebook.png" width= "30" height="30" alt=""></a></li>
+            <li><a href="https://www.instagram.com/pulkitsharmaaa/"><img src="instagram.png" width= "30" height="30" alt=""></a></li>
+            <li><a href="https://twitter.com/PulkitS64262120?s=09"><img src="twitter.png" width= "30" height="30" alt=""></a></li>
+            
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+
+        })
+
+    </script>
+    
+</body>
+</html>
